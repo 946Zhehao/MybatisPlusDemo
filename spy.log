@@ -1,0 +1,4 @@
+1646209552296|1|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/mybatisplus|SELECT COUNT(*) AS total FROM user WHERE deleted = 0|SELECT COUNT(*) AS total FROM user WHERE deleted = 0
+1646209552313|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/mybatisplus|SELECT  id,name,age,email,deleted,version,create_time,update_time  FROM user   WHERE deleted=0 LIMIT ?|SELECT  id,name,age,email,deleted,version,create_time,update_time  FROM user   WHERE deleted=0 LIMIT 9
+1646209773924|1|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/mybatisplus|SELECT COUNT(*) AS total FROM user WHERE deleted = 0|SELECT COUNT(*) AS total FROM user WHERE deleted = 0
+1646209773941|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3307/mybatisplus|SELECT  id,name,age,email,deleted,version,create_time,update_time  FROM user   WHERE deleted=0 LIMIT ?|SELECT  id,name,age,email,deleted,version,create_time,update_time  FROM user   WHERE deleted=0 LIMIT 9
